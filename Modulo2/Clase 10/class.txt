@@ -1,0 +1,4 @@
+¿Por qué es necesario saber que existe el formato JSON?
+¿Qué hace el JSON.parse() y para qué sirve?
+¿Cómo diferenciamos un objeto literal de un JSON?
+¿Cuáles son los nuevos métodos de arrays que aprendimos? ¿Qué podemos hacer con ellos?
