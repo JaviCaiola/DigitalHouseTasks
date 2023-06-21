@@ -1,3 +1,4 @@
+//Destructuring con un objeto
 let persona = {
     nombre : "jack",
     edad : 20,
@@ -9,3 +10,14 @@ let {nombre, color} = persona;
 
 console.log(nombre);
 console.log(color);
+
+//Destructuring con una lista
+console.log("----------------------------- \n Destructuring con una lista");
+
+let frutas = ["Manzana", "Pera", "Uvas", "Banana","Naranja"];
+
+let [Manzana, Pera] = frutas;
+
+console.log(Manzana);
+console.log(Pera);
+
