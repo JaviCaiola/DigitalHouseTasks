@@ -8,8 +8,11 @@ Se encarga de extraer los valores de un array o un objeto y copiarlos
 en otras variables sin necesidad de tener que acceder a los indices
 la estructuracion se puede ver en el archico ./app.js en esta carpeta
 
-en el caso de las arrays, los valores que se asignaran en las variables
+ En el caso de las arrays, los valores que se asignaran en las variables
 que declaremos dentro de los [] se addicionaran por el orden del array es
 decir de 0 en adelante; para omitir valores especificos se puede dejar un
 espacio en blanco entre las variables ej: [var1, , var2, , , ,var4] y asi.
+
+ Para los objetos literales se asignan las variables entre {} y estas
+variables tienen que tener el mismo nombre de la propiedad que hay dentro.
 
