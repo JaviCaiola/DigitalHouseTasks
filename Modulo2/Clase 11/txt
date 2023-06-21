@@ -16,3 +16,9 @@ espacio en blanco entre las variables ej: [var1, , var2, , , ,var4] y asi.
  Para los objetos literales se asignan las variables entre {} y estas
 variables tienen que tener el mismo nombre de la propiedad que hay dentro.
 
+# Spread operator y rest parameter
+ Son dos herramientas 
+
+-spread operator (operador de propagación)
+-rest parameter (parámetro rest)
+
