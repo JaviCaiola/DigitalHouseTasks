@@ -51,3 +51,12 @@ let julian = {
 
 console.log(pablo);
 
+console.log("---rest parameter---");
+
+function coso(...coso){
+    for (let i = 0; i <= coso.length; i++){
+        console.log("mostrando todos los parametros enviados: "+ coso[i]);
+    }
+}
+
+coso("este", 980, "huevo", false, "sabana")
