@@ -16,8 +16,8 @@ console.log("----------------------------- \n Destructuring con una lista");
 
 let frutas = ["Manzana", "Pera", "Uvas", "Banana","Naranja"];
 
-let [Manzana, Pera] = frutas;
+let [Manzana, Naranja] = frutas;
 
 console.log(Manzana);
-console.log(Pera);
+console.log(Naranja);
 
