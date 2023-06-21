@@ -22,3 +22,18 @@ variables tienen que tener el mismo nombre de la propiedad que hay dentro.
 -spread operator (operador de propagación)
 -rest parameter (parámetro rest)
 
+ El Spread Operator funciona para fusionar tanto listas como objetos sin
+la necesidad de tener que llamar a los metodos de los mismos. tan solo
+agregando uno al otro con "..." seguido del nombre de la otra lista o 
+objeto que queramos pasarle
+
+ El rest parameter tiene la misma sintaxis de los tres puntos, a diferencia
+que este va como parametro en los parentesis de una funcion, su objetivo es
+que a la funcion que se los pasemos pueda recibir cualquier cantidad de 
+parametros sin que se los tengamos que asignar. ej:
+ funtion hacerCosa(...parametro){}
+
+hacerCosa(valor1, valor2, valor3, valor4); y asi
+
+
+

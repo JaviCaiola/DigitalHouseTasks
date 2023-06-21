@@ -29,7 +29,7 @@ let motos = ["husqvarna", "motomel", "Ducati", "BMW"];
 let veichulos = [...carros,...motos]
 console.log(veichulos);
 
-console.log("------------------------ \n Destructuring con un objeto");
+console.log("------------------------ \n Spread con un objeto");
 
 let cuentaCorriente = {
     saldo : 10,
