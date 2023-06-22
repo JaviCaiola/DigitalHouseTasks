@@ -6,6 +6,6 @@ const importarDatos = () => {
     return bicis;
 }
 
-let datos = importarDatos();
+//let datos = importarDatos();
 
-module.exports = importarDatos;
+module.exports = importarDatos();
