@@ -1,4 +1,61 @@
-¿Por qué es necesario saber que existe el formato JSON?
-¿Qué hace el JSON.parse() y para qué sirve?
-¿Cómo diferenciamos un objeto literal de un JSON?
-¿Cuáles son los nuevos métodos de arrays que aprendimos? ¿Qué podemos hacer con ellos?
+ï¿½Por quï¿½ es necesario saber que existe el formato JSON?
+ï¿½Quï¿½ hace el JSON.parse() y para quï¿½ sirve?
+ï¿½Cï¿½mo diferenciamos un objeto literal de un JSON?
+ï¿½Cuï¿½les son los nuevos mï¿½todos de arrays que aprendimos? ï¿½Quï¿½ podemos hacer con ellos?
+
+Ejercicio 1
+
+a. Marca (Fierce, Shifter, Olmo, Battle, TopMega,SLP, Halley, Fixie, etc ).
+b. Modelo (FM18SI29AM211, FM18F29AM210, Regal, Sunshine, Techno,
+Ruta).
+c. Rodado (16, 26, 28, 29 ).
+d. AÃ±o de fabricaciÃ³n (2019, 2020, 2021, 2022, etc);
+e. Color (Celeste, negro, gris, amarillo, rosa, rojo, verde, Naranja, etc).
+f. Peso en Kilogramos(13, 15, 16, 17 );
+g. Tipo (MontaÃ±era, Paseo, Retro, TriatlÃ³n ).
+h. Precio (Coloque el precio que usted desee).
+i. Vendida (si Ã³ no).
+
+let model = {
+    "id" : 0,
+    "marca" : "",
+    "modelo" : "",
+    "rodado" : 0,
+    "anio" : 0,
+    "color": "",
+    "peso" : 0,
+    "tipo" : "",
+    "precio" : 0,
+    "vendida" : ""
+    }
+let listado = []
+let id=[1,2,3,4,5]
+let marcas = ["Fierce", "Shifter", "Olmo", "Battle", "TopMega","SLP", "Halley", "Fixie"]
+let modelos = ["FM18SI29AM211", "FM18F29AM210", "Regal", "Sunshine", "Techno",
+"Ruta"]
+let rodados = [16, 26, 28, 29,26]
+let aÃ±os = [2019, 2020, 2021, 2022,2023];
+let color = ["Celeste", "negro", "gris", "amarillo", "rosa", "rojo", "verde", "Naranja"]
+let pesos = [13, 15, 16, 17,13]
+let tipos = ["MontaÃ±era", "Paseo", "Retro", "TriatlÃ³n", "comun"]
+let precios = [20000,600000,40000,21000,340000];
+let vendidas = ["si","no","si","si","no"];
+
+for (let i=0; i<=id.length -1;i++){
+    let model = {
+        "id" : id[i],
+        "marca" : marcas[i],
+        "modelo" : modelos[i],
+        "rodado" : rodados[i],
+        "anio" : aÃ±os[i],
+        "color": color[i],
+        "peso" : pesos[i],
+        "tipo" : tipos[i],
+        "precio" : precios[i],
+        "vendida" : vendidas[i]
+        }
+    listado.push(model);
+}
+
+console.log(listado);
+
