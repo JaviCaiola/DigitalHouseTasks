@@ -35,5 +35,10 @@ parametros sin que se los tengamos que asignar. ej:
 
 hacerCosa(valor1, valor2, valor3, valor4); y asi
 
+dudas de la clase 
+
+¿Cómo sacamos parte del contenido de un array/objeto literal?
+¿Para qué nos sirve el operador spread?
+
 
 
