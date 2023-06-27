@@ -24,4 +24,4 @@ let {nombre,tipo,raza,color} = mascota;
 
 let mensaje = "les presento a mi mascota, su nombre es: "+nombre+" es un " +tipo+ " hermoso, de color: " +color+" y su raza es: " + raza;
 
-//console.log(mensaje);
+console.log(mensaje);
