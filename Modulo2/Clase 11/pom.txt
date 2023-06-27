@@ -1,0 +1,27 @@
+collectibles :
+
+let listadoCompleto = [...figuras,...figuras2,...figuras3];
+
+    let filtro = listadoCompleto.filter(figura => figura.marca == marca);
+
+    return filtro;
+
+app.js
+
+let fig = require("./collectibles");
+
+let juguetesCalientes = fig.importarDatos("Hot Toys");
+let bandai = fig.importarDatos("Bandai");
+let guerraEstrella = fig.importarDatos("Star Wars");
+
+let unifiedCollectibles = [juguetesCalientes, bandai, guerraEstrella]
+
+let collectibles = {
+    figuras : unifiedCollectibles,
+    listFigures : function(){
+        this.figuras.forEach(i => console.log(i));
+    },
+    figuresByBrand : function (marca){
+        this.figuras.filter(figura => figura.f)
+    }
+}
