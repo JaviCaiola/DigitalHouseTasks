@@ -6,8 +6,6 @@ let guerraEstrella = fig("Star Wars");
 
 let unifiedCollectibles = [...jugetesCalientes, ...bandai, ...guerraEstrella];
 
-//console.log(unifiedCollectibles);
-
 let collectibles = {
     figuras : unifiedCollectibles,
     listfigures : function (){
@@ -17,7 +15,7 @@ let collectibles = {
         let filtro = this.figuras.flat().filter(figura => figura.marca == marca);
         return filtro;
     }
-
 }
-
+//PRUEBA DE LAS FUNCIONES DEL OBJETO COLLECTIBLES
+collectibles.listfigures();
 console.log(collectibles.figuresbyBrand("Bandai"))
