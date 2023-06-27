@@ -1,0 +1,44 @@
+[
+    {
+        "marca":"Star Wars",
+        "nombre":"Dark Vlader",
+        "precio":20000,
+        "stock":100
+    },
+    {
+        "marca":"Star Wars",
+        "nombre":"Scout Trooper",
+        "precio":15000,
+        "stock":500
+    },
+    {
+        "marca":"Star Wars",
+        "nombre":"Luke SkyWalker",
+        "precio":250000,
+        "stock":40
+    },
+    {
+        "marca":"Star Wars",
+        "nombre":"Ahsoka Tano",
+        "precio":11000,
+        "stock":1000
+    },
+    {
+        "marca":"Star Wars",
+        "nombre":"Jedi",
+        "precio":55000,
+        "stock":200
+    },
+    {
+        "marca":"Star Wars",
+        "nombre":"Arturo",
+        "precio":29000,
+        "stock":1100
+    },
+    {
+        "marca":"Star Wars",
+        "nombre":"Dark Tropper",
+        "precio":55000,
+        "stock":150
+    }
+]

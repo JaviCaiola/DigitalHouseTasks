@@ -1,0 +1,39 @@
+[
+    {
+        "marca":"Hot Toys",
+        "nombre":"Spider-Man",
+        "precio":15000,
+        "stock":1000
+    },
+    {
+        "marca":"Hot Toys",
+        "nombre":"IronMan",
+        "precio":21000,
+        "stock":600
+    },
+    {
+        "marca":"Hot Toys",
+        "nombre":"HellBoy",
+        "precio":9000,
+        "stock":100
+    },
+    {
+        "marca":"Hot Toys",
+        "nombre":"Black Panther",
+        "precio":15000,
+        "stock":70
+    },
+    {
+        "marca":"Hot Toys",
+        "nombre":"Capitan America",
+        "precio":30000,
+        "stock":150
+    },
+    {
+        "marca":"Hot Toys",
+        "nombre":"Falcon",
+        "precio":36000,
+        "stock":1600
+    }
+
+]

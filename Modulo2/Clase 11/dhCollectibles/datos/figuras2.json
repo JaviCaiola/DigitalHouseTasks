@@ -1,0 +1,38 @@
+[
+    {
+        "marca":"Bandai",
+        "nombre":"Wonder Woman",
+        "precio":10000,
+        "stock":100
+    },
+    {
+        "marca":"Bandai",
+        "nombre":"Aquaman",
+        "precio":22000,
+        "stock":50
+    },
+    {
+        "marca":"Bandai",
+        "nombre":"Sailor",
+        "precio":1000,
+        "stock":10000
+    },
+    {
+        "marca":"Bandai",
+        "nombre":"Sailor Pluto",
+        "precio":16000,
+        "stock":520
+    },
+    {
+        "marca":"Bandai",
+        "nombre":"Gamora",
+        "precio":22000,
+        "stock":250
+    },
+    {
+        "marca":"Bandai",
+        "nombre":"macuin",
+        "precio":1000000,
+        "stock":10
+    }
+]
