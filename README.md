@@ -1,4 +1,4 @@
-# Repositorios de Tareas de Digital House By Javi Caiola
+# Repositorios de Tareas de Digital House By Abel Canchi
 
  Este repositorio contendra todas las resoluciones de ejercicios y practicas que realizo en el Programa DH
  Con el fin de mostrar los avances en el curso durante el periodo que me toca cursar.
