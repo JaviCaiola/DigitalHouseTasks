@@ -17,10 +17,10 @@ console.log("------------------------ \n Destructuring con una lista");
 
 let frutas = ["Manzana", "Pera", "Uvas", "Banana","Naranja"];
 
-let [Manzana, Naranja] = frutas;
+let [obj1, obj2] = frutas;
 
-console.log(Manzana);
-console.log(Naranja);
+console.log(obj1);
+console.log(obj2);
 
 console.log("\n ---SPREAD OPERATOR--- \n");
 
