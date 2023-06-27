@@ -6,7 +6,7 @@ let guerraEstrella = fig("Star Wars");
 
 let unifiedCollectibles = [...jugetesCalientes, ...bandai, ...guerraEstrella];
 
-console.log(unifiedCollectibles);
+//console.log(unifiedCollectibles);
 
 let collectibles = {
     figuras : unifiedCollectibles,
@@ -14,15 +14,10 @@ let collectibles = {
         this.figuras.forEach(i => console.log(i));
     },
     figuresbyBrand : function(marca){
-        console.log(this.figuras.length);
-        /*for (let i=0;i<= this.figuras.length; i++){
-            this.figuras[i].filter(figura => figura.marca == marca);
-        }*/
-        //console.log(this.figuras[1.filter(figura => figura.marca == marca))
-
-
+        let filtro = this.figuras.flat().filter(figura => figura.marca == marca);
+        return filtro;
     }
 
 }
 
-//console.log(collectibles.figuresbyBrand("Bandai"));
+console.log(collectibles.figuresbyBrand("Bandai"))
